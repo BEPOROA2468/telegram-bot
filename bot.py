@@ -6,7 +6,7 @@ from telegram.ext import Updater, CommandHandler, CallbackQueryHandler
 load_dotenv()
 TOKEN = os.getenv("TOKEN")
 
-CHANNEL_LINK = 'https://t.me/Haunted_Dorm_Community
+CHANNEL_LINK = 'https://t.me/Haunted_Dorm_Community'
 def start(update, context):
     keyboard = [
         [InlineKeyboardButton("Join Channel", url=CHANNEL_LINK)],
@@ -30,4 +30,5 @@ def main():
     updater.idle()
 
 if __name__ == '__main__':
+
     main()
