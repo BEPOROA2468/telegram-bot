@@ -1,0 +1,13 @@
+# keep secrets out of git
+.env
+
+# python junk
+pycache/
+*.pyc
+*.pyo
+*.pyd
+
+# virtual envs
+.venv/
+venv/
+env/
