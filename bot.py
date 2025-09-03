@@ -8,7 +8,7 @@ load_dotenv()
 TOKEN = os.getenv("TOKEN")
 
 CHANNEL_LINK = "https://t.me/Haunted_Dorm_Community"
-GAME_URL = "https://beporoa2468.github.io/Haunted-dorm/"  # আপনার Mini App URL
+GAME_URL = "https://beporoa2468.github.io/Haunted-dorm/"  #  Mini App URL
 PORT = int(os.environ.get("PORT", 5000))
 
 # Flask app
@@ -53,3 +53,4 @@ if __name__ == "__main__":
         application.bot.set_webhook(url=f"{RENDER_URL}/{TOKEN}")
 
     app.run(host="0.0.0.0", port=PORT)
+
